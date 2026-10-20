@@ -1,0 +1,90 @@
+{"id": 1, "question": "¿Cuántos días de vacaciones tengo si tengo 7 años de antigüedad?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["21"], "answerable": true}
+{"id": 2, "question": "¿Cuántos días de vacaciones corresponden con menos de 5 años en la empresa?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["14"], "answerable": true}
+{"id": 3, "question": "¿Con cuánta anticipación tengo que pedir las vacaciones?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["30 dias"], "answerable": true}
+{"id": 4, "question": "¿Dónde se solicitan las vacaciones?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["migente"], "answerable": true}
+{"id": 5, "question": "¿En cuántos períodos puedo dividir mis vacaciones?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["dos periodos"], "answerable": true}
+{"id": 6, "question": "¿Cuántos días de vacaciones no usados puedo pasar al año siguiente?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["5 dias"], "answerable": true}
+{"id": 7, "question": "¿Cuántos días de flexibilidad da la empresa por año?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["3 dias"], "answerable": true}
+{"id": 8, "question": "¿Tengo el día libre en mi cumpleaños?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["cumpleanos"], "answerable": true}
+{"id": 9, "question": "¿Cuánto tiempo tiene mi líder para aprobar una solicitud de vacaciones?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["5 dias habiles"], "answerable": true}
+{"id": 10, "question": "¿Cuándo vencen los días de vacaciones transferidos?", "expected_doc": "politica_vacaciones.md", "expected_keywords": ["31 de marzo"], "answerable": true}
+{"id": 11, "question": "¿Cuántos días por semana hay que ir a la oficina?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["2 dias"], "answerable": true}
+{"id": 12, "question": "¿Qué días son presenciales obligatorios?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["martes", "jueves"], "answerable": true}
+{"id": 13, "question": "¿Cuál es el horario núcleo de trabajo?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["10:00", "16:00"], "answerable": true}
+{"id": 14, "question": "¿Cuánto dinero recibo por mes como compensación por trabajo remoto?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["25.000"], "answerable": true}
+{"id": 15, "question": "¿Cuántos días al año puedo trabajar desde otro país?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["30 dias"], "answerable": true}
+{"id": 16, "question": "¿Es obligatorio usar la VPN para trabajar desde casa?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["vpn"], "answerable": true}
+{"id": 17, "question": "¿Cuál es la dirección de la oficina central?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["corrientes 1234"], "answerable": true}
+{"id": 18, "question": "¿Qué hago si me roban la notebook?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["24 horas"], "answerable": true}
+{"id": 19, "question": "¿Tengo que contestar mensajes fuera de mi horario laboral?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["desconexion"], "answerable": true}
+{"id": 20, "question": "¿Puedo pedir un monitor externo para trabajar en casa?", "expected_doc": "politica_trabajo_remoto.md", "expected_keywords": ["monitor"], "answerable": true}
+{"id": 21, "question": "¿Cuál es el tiempo de primera respuesta para un incidente SEV1?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["15 minutos"], "answerable": true}
+{"id": 22, "question": "¿Qué es un incidente SEV2?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["sev2"], "answerable": true}
+{"id": 23, "question": "¿En qué canal de Slack se reportan los incidentes?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["#incidentes"], "answerable": true}
+{"id": 24, "question": "¿Quién coordina la respuesta durante un incidente?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["incident commander"], "answerable": true}
+{"id": 25, "question": "¿Cada cuánto hay que publicar actualizaciones durante un SEV1?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["30 minutos"], "answerable": true}
+{"id": 26, "question": "¿Cuánto se paga por una semana de guardia?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["15%"], "answerable": true}
+{"id": 27, "question": "¿En cuánto tiempo hay que escribir el postmortem?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["5 dias habiles"], "answerable": true}
+{"id": 28, "question": "¿Qué significa que el postmortem sea blameless?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["culpables"], "answerable": true}
+{"id": 29, "question": "¿Cuándo se considera cerrado un incidente?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["1 hora"], "answerable": true}
+{"id": 30, "question": "¿Cómo se activa la guardia en PagerDuty?", "expected_doc": "procedimiento_incidentes.md", "expected_keywords": ["/pd trigger"], "answerable": true}
+{"id": 31, "question": "¿Cuál es la URL base de producción de la API de Pedidos?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["api.novatech.com.ar/pedidos/v2"], "answerable": true}
+{"id": 32, "question": "¿Cuántas solicitudes por minuto permite la API de Pedidos?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["100"], "answerable": true}
+{"id": 33, "question": "¿Qué código de error devuelve la API si supero el límite de solicitudes?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["429"], "answerable": true}
+{"id": 34, "question": "¿Cuánto dura un token de la API de Pedidos?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["60 minutos"], "answerable": true}
+{"id": 35, "question": "¿Cuántos resultados por página devuelve la API como máximo?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["200"], "answerable": true}
+{"id": 36, "question": "¿Qué header necesito para evitar pedidos duplicados?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["idempotency-key"], "answerable": true}
+{"id": 37, "question": "¿Cuándo se apaga la versión v1 de la API?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["30 de junio de 2027"], "answerable": true}
+{"id": 38, "question": "¿Qué pedidos se pueden cancelar?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["pendiente", "confirmado"], "answerable": true}
+{"id": 39, "question": "¿Qué significa el error 401 en la API?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["token"], "answerable": true}
+{"id": 40, "question": "¿Cómo se firman los webhooks?", "expected_doc": "manual_api_pedidos.md", "expected_keywords": ["hmac-sha256"], "answerable": true}
+{"id": 41, "question": "¿Qué pasa el primer día de trabajo?", "expected_doc": "guia_onboarding.txt", "expected_keywords": ["notebook"], "answerable": true}
+{"id": 42, "question": "¿Qué es un buddy en el onboarding?", "expected_doc": "guia_onboarding.txt", "expected_keywords": ["buddy"], "answerable": true}
+{"id": 43, "question": "¿Cuáles son los cursos obligatorios para nuevos empleados?", "expected_doc": "guia_onboarding.txt", "expected_keywords": ["seguridad de la informacion"], "answerable": true}
+{"id": 44, "question": "¿En cuánto tiempo hay que completar los cursos obligatorios?", "expected_doc": "guia_onboarding.txt", "expected_keywords": ["30 dias"], "answerable": true}
+{"id": 45, "question": "¿Cuánto dura el período de prueba?", "expected_doc": "guia_onboarding.txt", "expected_keywords": ["6 meses"], "answerable": true}
+{"id": 46, "question": "¿Cuál es el reintegro de gimnasio?", "expected_doc": "guia_onboarding.txt", "expected_keywords": ["20.000"], "answerable": true}
+{"id": 47, "question": "¿Cuál es el horario de atención de la Mesa de Ayuda?", "expected_doc": "guia_onboarding.txt", "expected_keywords": ["8:00", "20:00"], "answerable": true}
+{"id": 48, "question": "¿Qué plan de prepaga tienen los empleados?", "expected_doc": "guia_onboarding.txt", "expected_keywords": ["310"], "answerable": true}
+{"id": 49, "question": "¿Qué herramienta se usa para gestionar tareas?", "expected_doc": "guia_onboarding.txt", "expected_keywords": ["jira"], "answerable": true}
+{"id": 50, "question": "¿Cuántas cotizaciones necesito para una compra de 5 millones de pesos?", "expected_doc": "procedimiento_compras.md", "expected_keywords": ["3 cotizaciones"], "answerable": true}
+{"id": 51, "question": "¿Quién aprueba compras de más de 10 millones de pesos?", "expected_doc": "procedimiento_compras.md", "expected_keywords": ["cfo"], "answerable": true}
+{"id": 52, "question": "¿En qué sistema se carga una solicitud de compra?", "expected_doc": "procedimiento_compras.md", "expected_keywords": ["ariba"], "answerable": true}
+{"id": 53, "question": "¿Cuál es el plazo de pago a proveedores?", "expected_doc": "procedimiento_compras.md", "expected_keywords": ["30 dias"], "answerable": true}
+{"id": 54, "question": "¿Qué documentos necesito para dar de alta un proveedor nuevo?", "expected_doc": "procedimiento_compras.md", "expected_keywords": ["cbu"], "answerable": true}
+{"id": 55, "question": "¿Se puede pagar una factura que no tiene orden de compra?", "expected_doc": "procedimiento_compras.md", "expected_keywords": ["rechazan"], "answerable": true}
+{"id": 56, "question": "¿Quién tiene que aprobar la contratación de un software SaaS?", "expected_doc": "procedimiento_compras.md", "expected_keywords": ["seguridad informatica"], "answerable": true}
+{"id": 57, "question": "¿Cuál es el límite de gasto en comidas en viajes nacionales?", "expected_doc": "politica_gastos_viaticos.pdf", "expected_keywords": ["30.000"], "answerable": true}
+{"id": 58, "question": "¿Cuánto puedo gastar en hotel por noche en el exterior?", "expected_doc": "politica_gastos_viaticos.pdf", "expected_keywords": ["usd 180"], "answerable": true}
+{"id": 59, "question": "¿En qué clase se compran los vuelos?", "expected_doc": "politica_gastos_viaticos.pdf", "expected_keywords": ["economica"], "answerable": true}
+{"id": 60, "question": "¿Qué plazo tengo para rendir los gastos de un viaje?", "expected_doc": "politica_gastos_viaticos.pdf", "expected_keywords": ["10 dias habiles"], "answerable": true}
+{"id": 61, "question": "¿Me reintegran las bebidas alcohólicas?", "expected_doc": "politica_gastos_viaticos.pdf", "expected_keywords": ["alcoholicas"], "answerable": true}
+{"id": 62, "question": "¿De cuánto puede ser el anticipo de viáticos?", "expected_doc": "politica_gastos_viaticos.pdf", "expected_keywords": ["70%"], "answerable": true}
+{"id": 63, "question": "¿Cuál es el límite mensual de la tarjeta corporativa?", "expected_doc": "politica_gastos_viaticos.pdf", "expected_keywords": ["1.000.000"], "answerable": true}
+{"id": 64, "question": "¿Cuántos caracteres debe tener como mínimo una contraseña?", "expected_doc": "politica_seguridad_informatica.pdf", "expected_keywords": ["12"], "answerable": true}
+{"id": 65, "question": "¿Cada cuánto hay que cambiar la contraseña?", "expected_doc": "politica_seguridad_informatica.pdf", "expected_keywords": ["90 dias"], "answerable": true}
+{"id": 66, "question": "¿Qué aplicación se usa para la autenticación multifactor?", "expected_doc": "politica_seguridad_informatica.pdf", "expected_keywords": ["okta verify"], "answerable": true}
+{"id": 67, "question": "¿Puedo usar un pendrive en la notebook de la empresa?", "expected_doc": "politica_seguridad_informatica.pdf", "expected_keywords": ["prohibido"], "answerable": true}
+{"id": 68, "question": "¿Cuáles son los niveles de clasificación de la información?", "expected_doc": "politica_seguridad_informatica.pdf", "expected_keywords": ["confidencial", "restringida"], "answerable": true}
+{"id": 69, "question": "¿Qué hago si recibo un correo de phishing?", "expected_doc": "politica_seguridad_informatica.pdf", "expected_keywords": ["seguridad@novatech.com.ar"], "answerable": true}
+{"id": 70, "question": "¿A los cuántos minutos se bloquea la pantalla automáticamente?", "expected_doc": "politica_seguridad_informatica.pdf", "expected_keywords": ["5 minutos"], "answerable": true}
+{"id": 71, "question": "¿Puedo pegar datos de clientes en un asistente de inteligencia artificial externo?", "expected_doc": "politica_seguridad_informatica.pdf", "expected_keywords": ["inteligencia artificial"], "answerable": true}
+{"id": 72, "question": "¿Cuál es el valor máximo de un regalo que puedo aceptar de un proveedor?", "expected_doc": "codigo_de_conducta.pdf", "expected_keywords": ["usd 50"], "answerable": true}
+{"id": 73, "question": "¿Cómo declaro un conflicto de intereses?", "expected_doc": "codigo_de_conducta.pdf", "expected_keywords": ["compliance"], "answerable": true}
+{"id": 74, "question": "¿Cuál es el teléfono de la Línea Ética?", "expected_doc": "codigo_de_conducta.pdf", "expected_keywords": ["0800-555-6682"], "answerable": true}
+{"id": 75, "question": "¿Puedo hacer una denuncia anónima?", "expected_doc": "codigo_de_conducta.pdf", "expected_keywords": ["anonima"], "answerable": true}
+{"id": 76, "question": "¿Cada cuánto se reúne el Comité de Ética?", "expected_doc": "codigo_de_conducta.pdf", "expected_keywords": ["una vez por mes"], "answerable": true}
+{"id": 77, "question": "¿Puedo aceptar regalos en efectivo?", "expected_doc": "codigo_de_conducta.pdf", "expected_keywords": ["efectivo"], "answerable": true}
+{"id": 78, "question": "¿Cuál es el sueldo del gerente general?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 79, "question": "¿Cuántos días de licencia por paternidad me corresponden?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 80, "question": "¿Puedo llevar a mi perro a la oficina?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 81, "question": "¿Qué lenguaje de programación usa el equipo de frontend?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 82, "question": "¿Cuándo es la fiesta de fin de año?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 83, "question": "¿Quién ganó el último mundial de fútbol?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 84, "question": "¿Cuál es la contraseña del wifi de la oficina?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 85, "question": "¿Hay estacionamiento para bicicletas en el edificio?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 86, "question": "¿Cuál fue la facturación de NovaTech el año pasado?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 87, "question": "¿Cómo se configura Kubernetes en el cluster de staging?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 88, "question": "¿Cuántos empleados tiene la empresa?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 89, "question": "¿La empresa paga un bono anual por desempeño?", "expected_doc": null, "expected_keywords": [], "answerable": false}
+{"id": 90, "question": "¿Qué receta de empanadas recomiendan?", "expected_doc": null, "expected_keywords": [], "answerable": false}
